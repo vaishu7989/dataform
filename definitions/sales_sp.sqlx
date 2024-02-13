@@ -1,0 +1,13 @@
+config { type: "operations" }
+
+CREATE OR REPLACE PROCEDURE `DF_TRAIL.sales_sp`()
+
+BEGIN
+
+
+SELECT * FROM `fast-cascade-369003.DF_TRAIL.SALES`
+ORDER BY order_id;
+
+END;
+
+call `DF_TRAIL.sales_sp`();
