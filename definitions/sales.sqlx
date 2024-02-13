@@ -13,5 +13,6 @@ config {
 
 -- Define the SELECT statement to create the table
 SELECT * FROM `fast-cascade-369003.DF_TRAIL.SALES`
+order by order_id;
 
 
