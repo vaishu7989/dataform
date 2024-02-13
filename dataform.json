@@ -2,7 +2,7 @@
   "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
-  "defaultDatabase": "fast-cascade-369003",
+  "defaultDatabase": "secure-potion-409606",
   "defaultLocation": "US"
 }
     
