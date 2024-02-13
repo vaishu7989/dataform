@@ -12,9 +12,11 @@ config {
 }
 
 -- Define the SELECT statement to create the table
-SELECT
-  1 as order_id,
-  101 as product_id,
-  5 as quantity,
-  10.99 as unit_price,
-  DATE("2023-01-01") as order_date
+SELECT 
+1 AS order_id, 
+102 AS product_id,
+3 AS quantity,
+234.4 AS unit_price,
+"2025-01-03" AS  order_date
+
+
