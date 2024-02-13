@@ -17,6 +17,6 @@ SELECT
 102 AS product_id,
 3 AS quantity,
 234.4 AS unit_price,
-"2025-01-03" AS  order_date
+date("2025-01-03") AS  order_date
 
 
