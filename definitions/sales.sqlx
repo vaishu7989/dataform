@@ -12,11 +12,6 @@ config {
 }
 
 -- Define the SELECT statement to create the table
-SELECT 
-1 AS order_id, 
-102 AS product_id,
-3 AS quantity,
-234.4 AS unit_price,
-date("2025-01-03") AS  order_date
+SELECT * FROM `fast-cascade-369003.DF_TRAIL.SALES`
 
 

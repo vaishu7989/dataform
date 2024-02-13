@@ -10,4 +10,4 @@ ORDER BY order_id;
 
 END;
 
-call `DF_TRAIL.sales_sp`();
+-- call `DF_TRAIL.sales_sp`();
