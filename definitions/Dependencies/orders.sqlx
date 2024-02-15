@@ -1,0 +1,4 @@
+config {type : 'table',
+description : 'Table regarding order details' }
+
+select * from fast-cascade-369003.DF_TRAIL.ORDERS

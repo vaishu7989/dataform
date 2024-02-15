@@ -1,0 +1,3 @@
+config {type:'table',description:'Table regarding customer details'}
+
+select * from fast-cascade-369003.DF_TRAIL.CUSTOMERS
