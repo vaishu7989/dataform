@@ -1,5 +1,13 @@
-config {type: "table"}
-SELECT o.*, c.*, p.*
-FROM fast-cascade-369003.DF_TRAIL.ORDERS o
-JOIN fast-cascade-369003.DF_TRAIL.CUSTOMERS c ON o.customer_name = c.customer_name
-JOIN fast-cascade-369003.DF_TRAIL.PRODUCTS p ON o.product_name = p.product_name
+config {
+    type: "table"
+}
+
+SELECT
+  o.*,
+  p.*
+FROM
+  fast-cascade-369003.DF_TRAIL.ORDERS o
+JOIN
+  fast-cascade-369003.DF_TRAIL.PRODUCTS p
+ON
+  o.order_id = p.product_id

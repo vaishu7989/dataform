@@ -1,12 +1,9 @@
-config {type: "table"}
-select o.*,c.*,p.*
-from
-  ${ ref("orders") } o
-join
-  ${ ref("customers") } c
-on
-  o.customer_name = c.customer_name
-join
-  ${ ref("products") } p
-on
-  o.product_name = p.product_name
+config { type :'table',
+description : 'dependency table',
+name :'dep_tbl'}
+
+select
+o.*,p.*
+from ${ref('orders')} o
+join ${ref('products')} p
+on o.order_id = p.product_id 
